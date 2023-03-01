@@ -5,7 +5,7 @@ import Player from './components/Player';
 export default function App() {
   return (
     <View style={styles.container}>
-      <StatusBar style="dark" />
+      <StatusBar style="light" />
       <Player />
     </View>
   );
@@ -14,7 +14,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
